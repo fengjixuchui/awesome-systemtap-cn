@@ -1,9 +1,19 @@
+# 目录
+
+* [教程类](#教程类)
+* [手册类](#手册类)
+* [实例类](#实例类)
+* [使用技巧类](#使用技巧类)
+* [实用工具类](#实用工具类)
+* [其他](#其他)
+
 # 教程类
 * [通过实例快速入门Systemtap](https://www.codedump.info/post/20200128-systemtap-by-example/)：我自己学习过程中的一个学习笔记，通过例子展示用法。
 * [金九讲SystemTap使用技巧](https://zhuanlan.zhihu.com/p/28680568)：阿里技术专家的教程，也是很不错的。
 * [Using SystemTap by Brendan](http://dtrace.org/blogs/brendan/2011/10/15/using-systemtap/)：Brendan在2011年写的介绍博客。
 * [Systemtap tutorial](https://sourceware.org/systemtap/tutorial.pdf)：官方教程。
 * [SystemTap Beginners Guide](https://sourceware.org/systemtap/SystemTap_Beginners_Guide/)：官方的新手入门指南。
+* [Dynamic Tracing with DTrace & SystemTap](https://myaut.github.io/dtrace-stap-book/index.html)：《使用DTrace和Systemtap进行动态跟踪》
 
 # 手册类
 * [SystemTap Language Reference](https://sourceware.org/systemtap/langref.pdf)：官方的Systemtap语言参考手册。
@@ -14,12 +24,17 @@
 * [官方文档-Systemtap examples](https://sourceware.org/systemtap/examples/)：systemtap自带了一个examples目录，里面有关于进程、profile、内存、IO等的大量systemtap脚本例子，是学习systemtap的绝佳示范。
 * [Monitoring MySQL with DTrace/SystemTap](https://www.slideshare.net/posullivan/monitoring-mysql-with-dtracesystemtap)：使用Systemtap跟踪Mysql性能的pdf。
 * [使用动态跟踪技术SystemTap监控MySQL、Oracle性能](http://tech.it168.com/a2018/0808/5005/000005005369.shtml)
+* [Redis 高负载下的中断优化](https://tech.meituan.com/2018/03/16/redis-high-concurrency-optimization.html)：通过使用systemtap分析软中断，优化线上redis服务的实例。
+* [MYSQL数据库网卡软中断不平衡问题及解决方案](http://blog.yufeng.info/archives/2037)：同上，也是中断不平衡问题的解决。
+* [How SystemTap Userspace Probes Work](https://eklitzke.org/how-sytemtap-userspace-probes-work)：systemtap如何探测用户空间行为
+* [Troubleshooting systemd with SystemTap](https://blog.janestreet.com/troubleshooting-systemd-with-systemtap/)
 
 # 使用技巧类
 
 * [yufeng的博客](http://blog.yufeng.info/archives/category/tools)：yufeng是内地最早介绍systemtap相关技术的人，其早期博客有不少systemtap使用技巧。
 * [使用SystemTap给系统调用注入错误 — 源代码](https://lrita.github.io/2017/06/27/systemtap-inject-syscall-error/)：通过systemtap向系统调用注入错误，来模拟一些异常的情况，这个很实用。
 * [systemtap 修改系统调用参数](https://tcler.github.io/2017/09/11/systemtap-modify-syscall-parameters/)：同上。
+* [使用perf/SystemTap分析pagefault](https://lrita.github.io/2019/09/27/systemtap-profiling-pagefault/)
 
 # 实用工具类
 
